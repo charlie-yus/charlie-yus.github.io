@@ -1,41 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Yushuai Yu, Yu Shuai, 余帅, AI, business administration, digital transformation, campus agent">
-    <meta property="og:title" content="Yushuai Yu">
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURUxpcU3H2DoAAAABdFJOUwBA5thmAAAADElEQVQI12NgIA0AAAAwAAHHqoWOAAAAAElFTkSuQmCC">
-    <title>Yushuai Yu - Home</title>
-    <link rel="stylesheet" href="../assets/site.css">
-  </head>
-  <body data-lang="en" data-title-en="Yushuai Yu - Home" data-title-zh="余帅 - 首页">
-    <header class="mobile-bar">
-      <a class="mobile-brand" href="../about-me/">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords"
+    content="Yushuai Yu, Yu Shuai, 余帅, AI, business administration, digital transformation, campus agent">
+  <meta property="og:title" content="Yushuai Yu">
+  <link rel="icon"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURUxpcU3H2DoAAAABdFJOUwBA5thmAAAADElEQVQI12NgIA0AAAAwAAHHqoWOAAAAAElFTkSuQmCC">
+  <title>Yushuai Yu - Home</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+
+<body data-lang="en" data-title-en="Yushuai Yu - Home" data-title-zh="余帅 - 首页">
+  <header class="mobile-bar">
+    <a class="mobile-brand" href="../about-me/">
+      <span data-lang-inline="en">Yushuai Yu</span>
+      <span data-lang-inline="zh">余帅</span>
+    </a>
+    <button class="menu-toggle" type="button" data-menu-open aria-label="Open menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 7h16v2H4zm0 8h16v2H4zm0-4h16v2H4z"></path>
+      </svg>
+    </button>
+  </header>
+
+  <div class="mobile-nav-backdrop" data-menu-close></div>
+  <aside class="mobile-nav" data-mobile-nav aria-hidden="true">
+    <div class="mobile-nav-header">
+      <div class="mobile-brand">
         <span data-lang-inline="en">Yushuai Yu</span>
         <span data-lang-inline="zh">余帅</span>
-      </a>
-      <button class="menu-toggle" type="button" data-menu-open aria-label="Open menu">
+      </div>
+      <button class="mobile-close" type="button" data-menu-close aria-label="Close menu">
         <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M4 7h16v2H4zm0 8h16v2H4zm0-4h16v2H4z"></path>
+          <path
+            d="m18.3 5.71-1.41-1.42L12 9.17 7.11 4.29 5.7 5.71 10.58 10.6 5.7 15.48l1.41 1.42L12 12l4.89 4.9 1.41-1.42-4.88-4.88z">
+          </path>
         </svg>
       </button>
-    </header>
+    </div>
+    <nav class="mobile-nav-list" aria-label="Mobile">
+      <a class="nav-link is-active" href="../about-me/" aria-current="page">
+        <span data-lang-inline="en">Home</span>
+        <span data-lang-inline="zh">首页</span>
+      </a>
+      <a class="nav-link" href="../research/">
+        <span data-lang-inline="en">Research</span>
+        <span data-lang-inline="zh">研究</span>
+      </a>
+      <a class="nav-link" href="../teaching/">
+        <span data-lang-inline="en">Experience</span>
+        <span data-lang-inline="zh">经历</span>
+      </a>
+      <a class="nav-link" href="../award-services/">
+        <span data-lang-inline="en">Awards</span>
+        <span data-lang-inline="zh">奖项</span>
+      </a>
+      <a class="nav-link" href="../interests/">
+        <span data-lang-inline="en">Skills &amp; Service</span>
+        <span data-lang-inline="zh">技能与服务</span>
+      </a>
+    </nav>
+    <div class="lang-switcher">
+      <span class="lang-switcher-label">
+        <span data-lang-inline="en">Language</span>
+        <span data-lang-inline="zh">语言</span>
+      </span>
+      <div class="lang-switcher-controls" role="group" aria-label="Language switcher">
+        <button class="lang-button" type="button" data-language-switch="en">EN</button>
+        <button class="lang-button" type="button" data-language-switch="zh">中文</button>
+      </div>
+    </div>
+  </aside>
 
-    <div class="mobile-nav-backdrop" data-menu-close></div>
-    <aside class="mobile-nav" data-mobile-nav aria-hidden="true">
-      <div class="mobile-nav-header">
-        <div class="mobile-brand">
+  <div class="site-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <a href="../about-me/">
           <span data-lang-inline="en">Yushuai Yu</span>
           <span data-lang-inline="zh">余帅</span>
-        </div>
-        <button class="mobile-close" type="button" data-menu-close aria-label="Close menu">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m18.3 5.71-1.41-1.42L12 9.17 7.11 4.29 5.7 5.71 10.58 10.6 5.7 15.48l1.41 1.42L12 12l4.89 4.9 1.41-1.42-4.88-4.88z"></path>
-          </svg>
-        </button>
+        </a>
       </div>
-      <nav class="mobile-nav-list" aria-label="Mobile">
+      <nav class="sidebar-nav" aria-label="Primary">
         <a class="nav-link is-active" href="../about-me/" aria-current="page">
           <span data-lang-inline="en">Home</span>
           <span data-lang-inline="zh">首页</span>
@@ -69,139 +117,105 @@
       </div>
     </aside>
 
-    <div class="site-shell">
-      <aside class="sidebar">
-        <div class="brand">
-          <a href="../about-me/">
-            <span data-lang-inline="en">Yushuai Yu</span>
-            <span data-lang-inline="zh">余帅</span>
-          </a>
-        </div>
-        <nav class="sidebar-nav" aria-label="Primary">
-          <a class="nav-link is-active" href="../about-me/" aria-current="page">
-            <span data-lang-inline="en">Home</span>
-            <span data-lang-inline="zh">首页</span>
-          </a>
-          <a class="nav-link" href="../research/">
-            <span data-lang-inline="en">Research</span>
-            <span data-lang-inline="zh">研究</span>
-          </a>
-          <a class="nav-link" href="../teaching/">
-            <span data-lang-inline="en">Experience</span>
-            <span data-lang-inline="zh">经历</span>
-          </a>
-          <a class="nav-link" href="../award-services/">
-            <span data-lang-inline="en">Awards</span>
-            <span data-lang-inline="zh">奖项</span>
-          </a>
-          <a class="nav-link" href="../interests/">
-            <span data-lang-inline="en">Skills &amp; Service</span>
-            <span data-lang-inline="zh">技能与服务</span>
-          </a>
-        </nav>
-        <div class="lang-switcher">
-          <span class="lang-switcher-label">
-            <span data-lang-inline="en">Language</span>
-            <span data-lang-inline="zh">语言</span>
-          </span>
-          <div class="lang-switcher-controls" role="group" aria-label="Language switcher">
-            <button class="lang-button" type="button" data-language-switch="en">EN</button>
-            <button class="lang-button" type="button" data-language-switch="zh">中文</button>
-          </div>
-        </div>
-      </aside>
+    <main class="main">
+      <div class="page">
+        <h1 class="page-heading">
+          <span data-lang-inline="en">Home</span>
+          <span data-lang-inline="zh">首页</span>
+        </h1>
 
-      <main class="main">
-        <div class="page">
-          <h1 class="page-heading">
-            <span data-lang-inline="en">Home</span>
-            <span data-lang-inline="zh">首页</span>
-          </h1>
+        <section class="section">
+          <div class="intro-grid">
+            <button class="image-button" type="button" data-lightboxable data-lightbox-group="home"
+              data-lightbox-src="../assets/images/homepage-portrait.jpg" data-lightbox-alt-en="Portrait of Yushuai Yu"
+              data-lightbox-alt-zh="余帅个人照片" data-lightbox-caption-en="Yushuai Yu" data-lightbox-caption-zh="余帅">
+              <img class="portrait" src="../assets/images/homepage-portrait.jpg" loading="eager"
+                alt="Portrait of Yushuai Yu">
+            </button>
 
-          <section class="section">
-            <div class="intro-grid">
-              <button
-                class="image-button"
-                type="button"
-                data-lightboxable
-                data-lightbox-group="home"
-                data-lightbox-src="../assets/images/homepage-portrait.jpg"
-                data-lightbox-alt-en="Portrait of Yushuai Yu"
-                data-lightbox-alt-zh="余帅个人照片"
-                data-lightbox-caption-en="Yushuai Yu"
-                data-lightbox-caption-zh="余帅"
-              >
-                <img
-                  class="portrait"
-                  src="../assets/images/homepage-portrait.jpg"
-                  loading="eager"
-                  alt="Portrait of Yushuai Yu"
-                >
-              </button>
+            <div class="copy">
+              <p data-lang-block="en">I am Yushuai Yu, an undergraduate student in Business Administration (Enterprise
+                Digital Intelligence track) at Wuhan College, with a GPA of 4.06/5.0, a top-3% ranking in my cohort, and
+                the 2024 Yidan Prize for Education Outstanding Student Scholarship.</p>
+              <p data-lang-block="zh">余帅，武汉学院工商管理专业（企业数智化方向）本科生，GPA 4.06/5.0，专业排名 Top 3%，2024 年获陈一丹奖教奖学金优秀学生奖。</p>
 
-              <div class="copy">
-                <p data-lang-block="en">I am Yushuai Yu, an undergraduate student in Business Administration (Enterprise Digital Intelligence track) at Wuhan College, with a GPA of 4.06/5.0, a top-3% ranking in my cohort, and the 2024 Yidan Prize for Education Outstanding Student Scholarship.</p>
-                <p data-lang-block="zh">余帅，武汉学院工商管理专业（企业数智化方向）本科生，GPA 4.06/5.0，专业排名 Top 3%，2024 年获陈一丹奖教奖学金优秀学生奖。</p>
+              <p data-lang-block="en">From September 2025 to January 2026, I studied as a visiting student at Guanghua
+                School of Management, Peking University, focusing on value investing, causal inference and A/B
+                experimentation, data structures and algorithmic complexity, and data-product implementation with large
+                AI models.</p>
+              <p data-lang-block="zh">2025 年 9 月至 2026 年 1 月于北京大学光华管理学院访学，重点修读价值投资、因果推断与 A/B 实验、数据结构与算法复杂度分析，以及 AI
+                大模型辅助下的数据平台产品实现。</p>
 
-                <p data-lang-block="en">From September 2025 to January 2026, I studied as a visiting student at Guanghua School of Management, Peking University, focusing on value investing, causal inference and A/B experimentation, data structures and algorithmic complexity, and data-product implementation with large AI models.</p>
-                <p data-lang-block="zh">2025 年 9 月至 2026 年 1 月于北京大学光华管理学院访学，重点修读价值投资、因果推断与 A/B 实验、数据结构与算法复杂度分析，以及 AI 大模型辅助下的数据平台产品实现。</p>
+              <p data-lang-block="en">My work centers on AI for education, digital transformation, campus agents,
+                product innovation, and organizational coordination, and I usually move across research, product
+                practice, and student leadership in parallel.</p>
+              <p data-lang-block="zh">我的关注方向集中在 AI + 教育、数字化转型、校园智能体、产品创新与组织协同，持续在学术研究、产品实践和学生组织管理三条线上并行推进。</p>
 
-                <p data-lang-block="en">My work centers on AI for education, digital transformation, campus agents, product innovation, and organizational coordination, and I usually move across research, product practice, and student leadership in parallel.</p>
-                <p data-lang-block="zh">我的关注方向集中在 AI + 教育、数字化转型、校园智能体、产品创新与组织协同，持续在学术研究、产品实践和学生组织管理三条线上并行推进。</p>
+              <p data-lang-block="en">I have interned at Alibaba Group and the Yidan University Education Foundation,
+                contributing to university-enterprise collaboration, digital evaluation, intelligent knowledge bases,
+                and philanthropic program management.</p>
+              <p data-lang-block="zh">曾在阿里巴巴集团杭州总部与一丹大学教育基金会实习，参与校企合作、数字化评估、智能知识库、公益项目管理等工作。</p>
 
-                <p data-lang-block="en">I have interned at Alibaba Group and the Yidan University Education Foundation, contributing to university-enterprise collaboration, digital evaluation, intelligent knowledge bases, and philanthropic program management.</p>
-                <p data-lang-block="zh">曾在阿里巴巴集团杭州总部与一丹大学教育基金会实习，参与校企合作、数字化评估、智能知识库、公益项目管理等工作。</p>
+              <p data-lang-block="en">You can find my <a
+                  href="https://drive.google.com/file/d/1yAuhdT2bRcVIooTIkUVXTafr7TsHD2UW/view?usp=sharing"
+                  target="_blank" rel="noreferrer">CV</a> here.</p>
+              <p data-lang-block="zh">您可以在这里查看我的 <a
+                  href="https://drive.google.com/file/d/1yAuhdT2bRcVIooTIkUVXTafr7TsHD2UW/view?usp=sharing"
+                  target="_blank" rel="noreferrer">简历</a>。</p>
 
-                <p data-lang-block="en">You can find my <a href="https://drive.google.com/file/d/1yAuhdT2bRcVIooTIkUVXTafr7TsHD2UW/view?usp=sharing" target="_blank" rel="noreferrer">CV here</a>.</p>
-                <p data-lang-block="zh">您可以在这里查看我的 <a href="https://drive.google.com/file/d/1yAuhdT2bRcVIooTIkUVXTafr7TsHD2UW/view?usp=sharing" target="_blank" rel="noreferrer">简历</a>。</p>
-
-                <p data-lang-block="en">Contact: 17320543806 / <a href="mailto:charlie.yshuai@gmail.com">charlie.yshuai@gmail.com</a></p>
-                <p data-lang-block="zh">联系方式：17320543806 / <a href="mailto:charlie.yshuai@gmail.com">charlie.yshuai@gmail.com</a></p>
-              </div>
+              <p data-lang-block="en">Contact: 17320543806 / <a href="mailto:charlie_yus@qq.com">charlie_yus@qq.com</a>
+              </p>
+              <p data-lang-block="zh">联系方式：17320543806 / <a href="mailto:charlie_yus@qq.com">charlie_yus@qq.com</a></p>
             </div>
-          </section>
-
-          <div class="bottom-actions">
-            <a class="back-to-top" href="#" data-scroll-top>
-              <span class="arrow">↑</span>
-              <span data-lang-inline="en">Back to Top</span>
-              <span data-lang-inline="zh">返回顶部</span>
-            </a>
           </div>
-        </div>
-      </main>
-    </div>
+        </section>
 
-    <a class="floating-top" href="#" data-floating-top data-scroll-top aria-label="Back to top">
-      <svg viewBox="0 0 26 26" aria-hidden="true">
-        <path d="M13.8 1.3 21.6 9a1 1 0 0 1 0 1.5 1 1 0 0 1-1.4 0L14.2 5v19a1.2 1.2 0 0 1-1.2 1.2 1.2 1.2 0 0 1-1.2-1.2V5l-5.8 5.6a1 1 0 0 1-1.3 0 1 1 0 0 1 0-1.5l7.8-7.8A1.6 1.6 0 0 1 13 1a1.2 1.2 0 0 1 .8.3Z"></path>
-      </svg>
-    </a>
-
-    <div class="lightbox" data-lightbox>
-      <div class="lightbox-dialog">
-        <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m18.3 5.71-1.41-1.42L12 9.17 7.11 4.29 5.7 5.71 10.58 10.6 5.7 15.48l1.41 1.42L12 12l4.89 4.9 1.41-1.42-4.88-4.88z"></path>
-          </svg>
-        </button>
-        <button class="lightbox-control prev" type="button" data-lightbox-prev aria-label="Previous image">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m14.7 6.3-1.4-1.4L6.2 12l7.1 7.1 1.4-1.4-5.7-5.7z"></path>
-          </svg>
-        </button>
-        <div class="lightbox-stage">
-          <img class="lightbox-image" data-lightbox-image alt="">
+        <div class="bottom-actions">
+          <a class="back-to-top" href="#" data-scroll-top>
+            <span class="arrow">↑</span>
+            <span data-lang-inline="en">Back to Top</span>
+            <span data-lang-inline="zh">返回顶部</span>
+          </a>
         </div>
-        <button class="lightbox-control next" type="button" data-lightbox-next aria-label="Next image">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m9.3 17.7 1.4 1.4 7.1-7.1-7.1-7.1-1.4 1.4 5.7 5.7z"></path>
-          </svg>
-        </button>
-        <div class="lightbox-caption" data-lightbox-caption></div>
       </div>
-    </div>
+    </main>
+  </div>
 
-    <script src="../assets/site.js"></script>
-  </body>
+  <a class="floating-top" href="#" data-floating-top data-scroll-top aria-label="Back to top">
+    <svg viewBox="0 0 26 26" aria-hidden="true">
+      <path
+        d="M13.8 1.3 21.6 9a1 1 0 0 1 0 1.5 1 1 0 0 1-1.4 0L14.2 5v19a1.2 1.2 0 0 1-1.2 1.2 1.2 1.2 0 0 1-1.2-1.2V5l-5.8 5.6a1 1 0 0 1-1.3 0 1 1 0 0 1 0-1.5l7.8-7.8A1.6 1.6 0 0 1 13 1a1.2 1.2 0 0 1 .8.3Z">
+      </path>
+    </svg>
+  </a>
+
+  <div class="lightbox" data-lightbox>
+    <div class="lightbox-dialog">
+      <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="m18.3 5.71-1.41-1.42L12 9.17 7.11 4.29 5.7 5.71 10.58 10.6 5.7 15.48l1.41 1.42L12 12l4.89 4.9 1.41-1.42-4.88-4.88z">
+          </path>
+        </svg>
+      </button>
+      <button class="lightbox-control prev" type="button" data-lightbox-prev aria-label="Previous image">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m14.7 6.3-1.4-1.4L6.2 12l7.1 7.1 1.4-1.4-5.7-5.7z"></path>
+        </svg>
+      </button>
+      <div class="lightbox-stage">
+        <img class="lightbox-image" data-lightbox-image alt="">
+      </div>
+      <button class="lightbox-control next" type="button" data-lightbox-next aria-label="Next image">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m9.3 17.7 1.4 1.4 7.1-7.1-7.1-7.1-1.4 1.4 5.7 5.7z"></path>
+        </svg>
+      </button>
+      <div class="lightbox-caption" data-lightbox-caption></div>
+    </div>
+  </div>
+
+  <script src="../assets/site.js"></script>
+</body>
+
 </html>
