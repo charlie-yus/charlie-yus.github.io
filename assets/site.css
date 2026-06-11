@@ -506,6 +506,13 @@ body[data-lang="zh"] .muted-italic {
   text-align: right;
 }
 
+.award-date {
+  max-width: 460px;
+  font-size: clamp(1.02rem, 1.08vw, 1.36rem);
+  line-height: 1.42;
+  white-space: normal;
+}
+
 .item-body .detail-list {
   margin-top: 14px;
 }
