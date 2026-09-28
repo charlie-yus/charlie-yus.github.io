@@ -139,8 +139,13 @@ body[data-lang="zh"] [data-lang-block="zh"] {
   display: block;
 }
 
+/* In Chinese mode every element uses the same Chinese stack. Most rules set
+   font-family from these variables, so redefining them here keeps Latin text,
+   digits and CJK in one consistent face instead of mixing vcsm with PingFang. */
 body[data-lang="zh"] {
-  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-body);
+  font-family: var(--font-body);
 }
 
 body[data-lang="zh"] .brand,
@@ -487,6 +492,13 @@ body[data-lang="zh"] .muted-italic {
 
 .muted-italic {
   font-style: italic;
+}
+
+/* vcsm has no bold italic, so italics inside bold titles would be faked. */
+.paper-title .muted-italic,
+.item-title .muted-italic,
+.award-title .muted-italic {
+  font-style: normal;
 }
 
 .item-head,
@@ -983,3 +995,24 @@ body[data-lang="zh"] .muted-italic {
     right: 8px;
   }
 }
+
+/* ---- evidence links (added by web-next/tools/build_evidence_site.py) ---- */
+.evidence-links {
+  margin: 12px 0 0;
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.02vw, 1.2rem);
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+.evidence-links a { color: var(--link); }
+.evidence-links .sep { margin: 0 0.45em; color: var(--text); }
+li .evidence-links { display: inline; margin-left: 0.5em; white-space: nowrap; }
+.award-row .evidence-links { margin-top: 8px; }
+.evidence-view { max-width: 980px; }
+.evidence-back { margin: 0 0 28px; font-family: var(--font-body); font-size: 1.05rem; }
+.evidence-back a { color: var(--link); }
+.evidence-type { color: var(--muted); }
+.evidence-figure { margin: 26px 0 0; }
+.evidence-figure img { width: 100%; height: auto; background: #f4f4f4; box-shadow: var(--shadow); }
+.evidence-figure figcaption { margin-top: 12px; font-family: var(--font-body); color: #6b6b6b; }
+.evidence-index .section-subtitle { margin-top: 42px; }
