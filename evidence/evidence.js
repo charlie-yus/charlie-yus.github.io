@@ -57,6 +57,16 @@
    "zh": "截图"
   }
  },
+ "academic-exchange/hkust-consumer-liquidity-lecture-2026": {
+  "src": "../assets/images/academic-exchange/hkust-consumer-liquidity-lecture-2026.jpg",
+  "category": "academic-exchange",
+  "en": "HKUST Li & Fung Supply Chain Institute online lecture on consumer liquidity, retail prices and inventory",
+  "zh": "香港科技大学利丰供应链研究院线上讲座：消费者流动性对零售价格和库存的潜在影响",
+  "type": {
+   "en": "email",
+   "zh": "邮件"
+  }
+ },
  "academic-exchange/miracleplus-ai-scientist": {
   "src": "../assets/images/academic-exchange/miracleplus-ai-scientist.jpg",
   "category": "academic-exchange",
@@ -115,6 +125,16 @@
   "type": {
    "en": "photo",
    "zh": "照片"
+  }
+ },
+ "academic-exchange/westlake-higher-education-forum-2026": {
+  "src": "../assets/images/academic-exchange/westlake-higher-education-forum-2026.jpg",
+  "category": "academic-exchange",
+  "en": "2026 Westlake Forum on Higher Education registration confirmation",
+  "zh": "2026 西湖高等教育论坛报名成功确认邮件",
+  "type": {
+   "en": "email",
+   "zh": "邮件"
   }
  },
  "academic-exchange/westlake-science-symposium-2026": {
@@ -467,6 +487,16 @@
    "zh": "截图"
   }
  },
+ "honors/teaching-quality-month-ai-learning-case-2026": {
+  "src": "../assets/images/honors/teaching-quality-month-ai-learning-case-2026.jpg",
+  "category": "honors",
+  "en": "Wuhan College 2026 Teaching Quality Month \"Two Ones\" exemplary case list (AI-empowered student learning)",
+  "zh": "武汉学院 2026 年教学质量月“两个一”示范案例推荐名单（人工智能赋能学生学习应用案例）",
+  "type": {
+   "en": "notice",
+   "zh": "公示"
+  }
+ },
  "honors/volunteer-fund-ai-for-nice": {
   "src": "../assets/images/honors/volunteer-fund-ai-for-nice.jpg",
   "category": "honors",
@@ -635,6 +665,16 @@
   "type": {
    "en": "photo",
    "zh": "照片"
+  }
+ },
+ "service/freshman-welcome-senior-rep-2026": {
+  "src": "../assets/images/service/freshman-welcome-senior-rep-2026.jpg",
+  "category": "service",
+  "en": "School of Management 2026 freshman welcome meeting news (senior student representative)",
+  "zh": "管理学院 2026 级新生见面会新闻（老生代表发言）",
+  "type": {
+   "en": "news",
+   "zh": "新闻"
   }
  },
  "service/peer-mentor-list-2024": {
