@@ -37,16 +37,6 @@
    "zh": "邮件"
   }
  },
- "academic-exchange/gba-ai-frontiers-followup-email": {
-  "src": "../assets/images/academic-exchange/gba-ai-frontiers-followup-email.jpg",
-  "category": "academic-exchange",
-  "en": "GBA seminar follow-up survey email",
-  "zh": "大湾区研讨会参会调研邮件",
-  "type": {
-   "en": "email",
-   "zh": "邮件"
-  }
- },
  "academic-exchange/gba-singularity-to-business-value-slide": {
   "src": "../assets/images/academic-exchange/gba-singularity-to-business-value-slide.jpg",
   "category": "academic-exchange",
